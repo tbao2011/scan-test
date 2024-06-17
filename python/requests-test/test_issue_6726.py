@@ -62,8 +62,6 @@ class HTTPSServer(socketserver.TCPServer):
 import certifi.core
 certifi.core._CACERT_PATH = "server.crt"
 
-import requests
-
 stop_server = None
 
 
@@ -76,6 +74,8 @@ def run_server():
 
 
 def run_client(name, results):
+    import requests
+
     session = requests.Session()
     session.cert = (f"{name}.crt", f"{name}.key")
     try:
