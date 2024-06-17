@@ -89,6 +89,7 @@ def run_client(name, results):
     except Exception as e:
         results.append(f"FAIL {name}: {e}")
 
+
 class TestHTTPSServer(unittest.TestCase):
 
     @classmethod
@@ -111,6 +112,10 @@ class TestHTTPSServer(unittest.TestCase):
         cls.executor.shutdown(wait=True)
 
     def test_clients(self):
+        """
+        Ref: https://github.com/psf/requests/issues/6726
+        """
+
         results = []
         with ThreadPoolExecutor() as ex:
             futures = [
