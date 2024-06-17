@@ -1,10 +1,10 @@
-import unittest
 from concurrent.futures import ThreadPoolExecutor, as_completed, wait
 import http.server
 import random
 import socketserver
 import ssl
 import time
+import unittest
 
 from OpenSSL import crypto
 
