@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@coral-xyz/anchor": "^0.28.1-beta.1",
+    "@coral-xyz/anchor": "^0.30.0",
     "@metaplex-foundation/beet": "^0.7.2",
     "@metaplex-foundation/beet-solana": "^0.4.1",
     "@metaplex-foundation/js": "^0.20.1",
