@@ -19,7 +19,7 @@
     "@pythnetwork/client": "^2.19.0",
     "@saberhq/stableswap-sdk": "^1.15.0",
     "@solana/spl-governance": "^0.3.28",
-    "@solana/web3.js": "^1.77.3",
+    "@solana/web3.js": "^1.91.8",
     "@solendprotocol/solend-sdk": "^0.8.7",
     "amqplib": "^0.10.3",
     "bn.js": "^5.2.1",
