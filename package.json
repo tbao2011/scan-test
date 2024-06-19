@@ -20,7 +20,7 @@
     "@saberhq/stableswap-sdk": "^1.15.0",
     "@solana/spl-governance": "^0.3.28",
     "@solana/web3.js": "^1.77.3",
-    "@solendprotocol/solend-sdk": "^0.8.7",
+    "@solendprotocol/solend-sdk": "^0.9.2",
     "amqplib": "^0.10.3",
     "bn.js": "^5.2.1",
     "mongodb": "^5.6.0",
